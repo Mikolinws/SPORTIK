@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="description" content="Спортик — фитнес-клуб и спортивные секции в Аксае. Вольная борьба, дзюдо, тхэквондо и тренажёрный зал." />
+  <title>Спортик — сила начинается здесь</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Спортик — на главную"><span class="brand-mark">С</span><span>СПОРТ<em>ИК</em></span></a>
+      <nav class="navlinks" id="navlinks">
+        <a href="#sports">Направления</a><a href="#prices">Абонементы</a><a href="#coaches">Тренеры</a><a href="#contacts">Контакты</a>
+      </nav>
+      <a class="nav-cta" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20записаться%20в%20Спортик." target="_blank" rel="noopener">ЗАПИСАТЬСЯ ↗</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="hero" id="home">
+        <div class="hero-content reveal">
+          <div class="eyebrow">Фитнес-клуб · Аксай</div>
+          <h1>Стань<br>сильнее.<span>Каждый</span><span>день.</span></h1>
+          <p class="hero-copy">Тренажёрный зал и спортивные секции для тех, кто готов работать над собой. Выбирай направление, приходи на тренировку и двигайся к своей цели.</p>
+          <div class="hero-actions">
+            <a class="btn" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20записаться%20на%20тренировку%20в%20Спортик." target="_blank" rel="noopener">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ ↗</a>
+            <a class="btn-outline" href="#prices">Смотреть цены</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><strong>4</strong><span>тренера в команде</span></div>
+            <div class="stat"><strong>3+</strong><span>спортивных направления</span></div>
+            <div class="stat"><strong>365</strong><span>дней на пути к цели</span></div>
+          </div>
+        </div>
+        <div class="hero-photo reveal">
+          <img src="images/hero.jpg" alt="Спортивный клуб Спортик" loading="eager">
+          <div class="photo-tag">ТВОЯ СИЛА. ТВОЙ ВЫБОР.</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="ticker"><div class="container ticker-inner"><span>Дисциплина</span><span>Сила</span><span>Характер</span><span>Результат</span><span>Дисциплина</span></div></div>
+
+    <section id="sports">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="eyebrow">Найди своё направление</div><h2>Больше, чем<br><span>тренировки.</span></h2></div>
+          <p class="section-note">Работай над силой, техникой и выносливостью. Выбирай направление, которое подходит именно тебе.</p>
+        </div>
+        <div class="sports-grid">
+          <article class="sport-card reveal"><span class="sport-index">01 / FITNESS</span><span class="sport-icon">✦</span><h3>Тренажёрный зал</h3><p>Силовые тренировки и работа над физической формой.</p><span class="sport-arrow">↗</span></article>
+          <article class="sport-card reveal"><span class="sport-index">02 / WRESTLING</span><span class="sport-icon">◈</span><h3>Вольная борьба</h3><p>Техника, координация, выносливость и спортивный характер.</p><span class="sport-arrow">↗</span></article>
+          <article class="sport-card reveal"><span class="sport-index">03 / JUDO</span><span class="sport-icon">✣</span><h3>Дзюдо</h3><p>Баланс, контроль, техника и уважение к сопернику.</p><span class="sport-arrow">↗</span></article>
+          <article class="sport-card reveal"><span class="sport-index">04 / TAEKWONDO</span><span class="sport-icon">✴</span><h3>Тхэквондо</h3><p>Скорость, гибкость, дисциплина и точность движений.</p><span class="sport-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="prices">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="eyebrow">Выбирай свой формат</div><h2>Абонементы<br><span>и цены.</span></h2></div>
+          <p class="section-note">Выбери удобный вариант и запишись на тренировку через WhatsApp.</p>
+        </div>
+        <div class="price-grid">
+          <article class="price-card reveal"><span class="label">10 занятий</span><h3>Дневной</h3><div class="price">12 000 <small>₸</small></div><p>10 тренировок в дневное время.</p><a class="text-link" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20узнать%20подробнее%20о%20дневном%20абонементе%20за%2012%20000%20тг." target="_blank" rel="noopener">ВЫБРАТЬ АБОНЕМЕНТ ↗</a></article>
+          <article class="price-card reveal"><span class="label">10 занятий</span><h3>Вечерний</h3><div class="price">15 000 <small>₸</small></div><p>10 тренировок в вечернее время.</p><a class="text-link" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20узнать%20подробнее%20о%20вечернем%20абонементе%20за%2015%20000%20тг." target="_blank" rel="noopener">ВЫБРАТЬ АБОНЕМЕНТ ↗</a></article>
+          <article class="price-card reveal"><span class="label">Разовое посещение</span><h3>Одна тренировка</h3><div class="price">2 000 <small>₸</small></div><p>Попробуй тренировку и познакомься с клубом.</p><a class="text-link" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20записаться%20на%20разовую%20тренировку%20за%202%20000%20тг." target="_blank" rel="noopener">ЗАПИСАТЬСЯ ↗</a></article>
+          <article class="price-card featured reveal"><span class="label">Тренируйся без ограничений</span><h3>Безлимит · 30 дней</h3><div class="price">20 000 <small>₸</small></div><p class="unlimited-note">Тренируйся без ограничений.</p><a class="btn" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20оформить%20безлимитный%20абонемент%20на%2030%20дней%20за%2020%20000%20тг." target="_blank" rel="noopener">ВЫБРАТЬ ↗</a></article>
+          <article class="price-card featured reveal"><span class="label">Тренируйся без ограничений</span><h3>Безлимит · 90 дней</h3><div class="price">38 000 <small>₸</small></div><p class="unlimited-note">Тренируйся без ограничений.</p><a class="btn" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20оформить%20безлимитный%20абонемент%20на%2090%20дней%20за%2038%20000%20тг." target="_blank" rel="noopener">ВЫБРАТЬ ↗</a></article>
+          <article class="price-card featured reveal"><span class="label">Тренируйся без ограничений</span><h3>Безлимит · 1 год</h3><div class="price">99 000 <small>₸</small></div><p class="unlimited-note">Тренируйся без ограничений.</p><a class="btn" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20оформить%20годовой%20безлимитный%20абонемент%20за%2099%20000%20тг." target="_blank" rel="noopener">ВЫБРАТЬ ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="coach-section" id="coaches">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="eyebrow">Люди, которые ведут вперёд</div><h2>Твои тренеры.<br><span>Твоя команда.</span></h2></div>
+          <div class="coach-toolbar"><button class="slider-btn" id="prevCoach" aria-label="Предыдущий тренер">←</button><button class="slider-btn" id="nextCoach" aria-label="Следующий тренер">→</button></div>
+        </div>
+        <p class="section-note reveal" style="margin:-16px 0 28px">Здесь появятся фотографии, имена, направления и достижения четырёх тренеров клуба.</p>
+        <div class="coach-track" id="coachTrack" aria-label="Карточки тренеров">
+          <article class="coach-card"><div class="coach-photo"><img src="images/coach1.jpg" alt="Тренер 1" loading="lazy"></div><div class="coach-info"><small>Тренер · 01</small><p>Персональный тренер, индивидуальные тренировки.</p><div class="coach-progress"><span>СПОРТИК / КОМАНДА</span><span>01 — 04</span></div></div></article>
+          <article class="coach-card"><div class="coach-photo"><img src="images/coach2.jpg" alt="Тренер 2" loading="lazy"></div><div class="coach-info"><small>Тренер · 02</small><p>Персональный тренер, индивидуальные тренировки, групповые тренировки.</p><div class="coach-progress"><span>СПОРТИК / КОМАНДА</span><span>02 — 04</span></div></div></article>
+          <article class="coach-card"><div class="coach-photo"><img src="images/coach3.jpg" alt="Тренер 3" loading="lazy"></div><div class="coach-info"><small>Тренер · 03</small><p>Персональный тренер, индивидуальные тренировки, групповые тренировки</p><div class="coach-progress"><span>СПОРТИК / КОМАНДА</span><span>03 — 04</span></div></div></article>
+          <article class="coach-card"><div class="coach-photo"><img src="images/coach4.jpg" alt="Тренер 4" loading="lazy"></div><div class="coach-info"><small>Тренер · 04</small><p>Персональный тренер, индивидуальные тренировки, похудение.</p><div class="coach-progress"><span>СПОРТИК / КОМАНДА</span><span>04 — 04</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <div class="cta-band"><div class="container cta-content"><div><h2>Хватит откладывать.<br>Время действовать.</h2><p>Первый шаг проще, чем кажется. Напиши нам в WhatsApp.</p></div><a class="btn-dark" href="https://wa.me/77769155545?text=Здравствуйте!%20Хочу%20записаться%20в%20Спортик." target="_blank" rel="noopener">ЗАПИСАТЬСЯ В СПОРТИК ↗</a></div></div>
+
+    <section id="contacts">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="reveal"><div class="eyebrow">Ждём тебя на тренировке</div><h2 style="font-family:Oswald,sans-serif;text-transform:uppercase;font-size:clamp(40px,5vw,58px);line-height:1.05;margin:17px 0">Начни свой<br><span style="color:var(--yellow)">путь сегодня.</span></h2><p style="color:#aaa;font-size:13px;line-height:1.8;max-width:420px">Сохрани контакты клуба и напиши нам, чтобы уточнить расписание и подобрать подходящий абонемент.</p>
+            <div class="contact-details">
+              <a class="contact-item" href="https://wa.me/77769155545" target="_blank" rel="noopener"><span class="contact-icon">↗</span><span><small>WhatsApp / телефон</small><strong>+7 776 915 5545</strong></span></a>
+              <div class="contact-item"><span class="contact-icon">⌖</span><span><small>Адрес клуба</small><strong>г. Аксай, ул. Железнодорожная, 137/3а</strong></span></div>
+              <a class="contact-item" href="https://instagram.com/Sportik_aksay" target="_blank" rel="noopener"><span class="contact-icon">◎</span><span><small>Instagram</small><strong>@Sportik_aksay</strong></span></a>
+            </div>
+          </div>
+          <div class="map-box reveal"><div class="map-inner"><div class="map-pin">⌖</div><h3>Спортик · Аксай</h3><p>ул. Железнодорожная, 137/3а</p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Аксай%2C%20улица%20Железнодорожная%20137%2F3а" target="_blank" rel="noopener">ОТКРЫТЬ КАРТУ ↗</a></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="footer-brand" href="#home">СПОРТ<span>ИК</span></a><span>© <span id="year"></span> Спортик · Аксай</span><span>Сила. Дисциплина. Результат.</span></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
