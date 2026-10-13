@@ -244,7 +244,7 @@ h1 span {
 }
 
 .hero-photo {
-    height: 485px;
+    height: 480px;
     position: relative;
     isolation: isolate;
 }
@@ -1053,9 +1053,22 @@ footer {
 .hero-photo img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
     display: block;
     background: #111;
     border: 1px solid #383838;
+}
+
+/* ТЕЛЕФОНЫ */
+@media (max-width: 650px) {
+    .hero-photo {
+        height: 400px;
+        margin-left: 15px;
+    }
+
+    .hero-photo img {
+        object-fit: cover;
+        object-position: center;
+    }
 }
