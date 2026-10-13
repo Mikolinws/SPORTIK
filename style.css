@@ -1048,26 +1048,25 @@ footer {
         transform: none;
     }
 }
-
-/* ФОТО В ГЛАВНОМ БЛОКЕ */
 .hero-photo img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    display: block;
-    background: #111;
-    border: 1px solid #383838;
 }
 
-/* ТЕЛЕФОНЫ */
+/* Только на телефонах */
 @media (max-width: 650px) {
     .hero-photo {
         height: 400px;
-        margin-left: 15px;
+        width: 100%;
+        margin-left: 0;
     }
 
     .hero-photo img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         object-position: center;
     }
